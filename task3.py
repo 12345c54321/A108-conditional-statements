@@ -31,3 +31,14 @@ Enter a number: 10000
 
 
 """
+number = int(input("number: "))
+if number > 1000:
+    print(str(number) + " is larger than 1000")
+elif number > 100:
+    print(str(number) + " is larger than 100")
+elif number > 10:
+    print(str(number) + " is larger than 10")
+elif number > 0:
+    print(str(number) + " is larger than 0")
+elif number <= 0:
+    print(str(number) + " is smaller than 0 or 0")
