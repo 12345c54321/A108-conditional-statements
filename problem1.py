@@ -12,3 +12,7 @@
 # Outputs:
 # "the number is even"
 # "the number is odd"
+
+num = int(input("number: "))
+if num % 2 == 0 : print("even")
+if num % 2 == 1 : print("odd")

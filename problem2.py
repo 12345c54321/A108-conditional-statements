@@ -10,3 +10,8 @@
 # Outputs:
 # "the number is an integer"
 # "the number is not an integer"
+
+
+num = int(input("number: "))
+if num - round(num) == 0: print("interger")
+else print("no interger")
