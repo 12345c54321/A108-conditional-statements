@@ -11,7 +11,8 @@
 # "the number is an integer"
 # "the number is not an integer"
 
+import math
 
-num = int(input("number: "))
+num = float(input("number: "))
 if num - round(num) == 0: print("interger")
-else print("no interger")
+else: print("no interger")
