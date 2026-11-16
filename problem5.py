@@ -29,3 +29,11 @@ Enter c: 8
 the equation can not be factored
 
 """
+A = int(input("a= "))
+B = int(input("b= "))
+C = int(input("c= "))
+D = (B**2) - 4 * A * C
+if D >= 0:
+    print("the equation can be factored")
+else :
+    print("the equation can not be factored")

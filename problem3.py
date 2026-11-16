@@ -24,9 +24,13 @@
  Access denied
 """
 userlogin = str(input("USER: "))
-if userlogin == "admin" : passwordlogin = str(input("PASSWORD: ")) 
+if userlogin == "admin" : 
+    passwordlogin = str(input("PASSWORD: ")) 
 
-        if passwordlogin == "12345password" : print("Access granted")
-    else print("Access denied")
+    if passwordlogin == "12345password" : 
+        print("Access granted")
+    else: 
+        print("Access denied")
     
-else print("invalid user")
+else :
+    print("invalid user")
