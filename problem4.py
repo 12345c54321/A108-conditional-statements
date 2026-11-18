@@ -39,4 +39,4 @@ C = int(input("Side hyp= "))
 ABsqrd = A**2 + B**2  
 Csqrd = C**2
 if (Csqrd*1.02) > ABsqrd > (Csqrd*0.98) : print("RIGHT TRIANGLE")
-else :print("Du Hurensohn")
+else :print("OBTUSE TRIANGLE")
